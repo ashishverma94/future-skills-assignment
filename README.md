@@ -4,22 +4,21 @@
 
 1. **How can you implement shared functionality across a component tree?**
 
-   ```To implement shared functionality across a React component tree. The basic and easy method is prop-drilling we can pass the data from one component to another using props. Other method is Context API allows you to provide and consume shared state or functions at any level of the component tree without prop drilling. Higher-Order Components can also be used it  wrap components to inject functionality or props. We can also use libraries like redux, thunk.
+   To implement shared functionality across a React component tree. The basic and easy method is prop-drilling we can pass the data from one component to another using props. Other method is Context API allows you to provide and consume shared state or functions at any level of the component tree without prop drilling. Higher-Order Components can also be used it  wrap components to inject functionality or props. We can also use libraries like redux, thunk.
 
-   ```
+   
 
-   1. **Why is the useState hook appropriate for handling state in a complex component?**
+2. **Why is the useState hook appropriate for handling state in a complex component?**
 
-   ```Because it allows for a clear and manageable way to manage and update state variables within functional components.
+   Because it allows for a clear and manageable way to manage and update state variables within functional components.
 
-   ```
 
 ## Instructions to set up project
 
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/iAmritMalviya/fullstack-assignment
+   git clone https://github.com/ashishverma94/future-skills-assignment.git
    Open folder in vscode
    ```
 
@@ -41,6 +40,7 @@
    ```
 
 3. **Frontend:**
+   - Go inside frontend/src/utils/url.js  and comment line 2 and uncomment line 1 to update backend url 
    - Run the commands-
    ```bash
    cd frontend
