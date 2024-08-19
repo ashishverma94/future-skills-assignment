@@ -1,4 +1,4 @@
-import IconMain from "../assets/icons-main.png";
+import IconMain from "../assets/Icons-main.png";
 
 const Header = () => {
   return (
